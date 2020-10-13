@@ -1,0 +1,143 @@
+
+
+*{
+     font-family: 'Oxygen', sans-serif;
+     
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+  
+    display: flex;
+    justify-content: space-between;
+    width = 100% ;
+    align-items: center;
+    background-color: #282828;
+	height: 65px;
+   
+}
+header button
+{
+   
+    justify-content: space-between;
+    
+    padding: 9px 25px;
+    border-radius: 5px;
+	border: 0px;
+    color: white;
+	height: 45px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 430px;
+	height: 100%;
+	padding-right: 7px
+}
+
+.nav > button{
+	
+	display: flex;
+	height: 65%;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.9em;
+	padding: 0px;
+}
+.btn{
+	height: 100%;
+	width: 100%;
+	
+}
+.btn-signup{
+	background-color: #21B258;
+	color: black;
+	font-weight: bold;
+}
+.btn-signup:hover{
+	background-color: #229865;
+}
+.btn-other{
+	background-color: #666666;
+	
+	
+}
+.btn-other:hover{
+	background-color: #8c8c8c;
+	
+}
+.hover-effect:hover{
+	border: solid 2px #666666;
+	
+}
+.btn-like{
+	color: #B2B1C2;
+	background-color: #282828;
+	border: solid 3px #666666;
+}
+.btn-like:hover{
+	background-color: #8c8c8c;
+}
+header>nav
+{
+	height: 100%;
+	display:  flex;
+	align-items: center;
+   
+}
+table a
+{
+	
+    padding: 20px;
+    margin: 10px 0px 30px 20px;
+    padding: 0 0 20px 0;
+
+}
+table nav 
+{
+    text-align: right;
+}
+img
+{
+    width: 150px;
+    height: 100%;
+   
+    
+    
+}
+
+.heading
+{
+    text-align: center;
+}
+
+
+
+.content
+{
+    
+    background-image: url(students_pic.jpg);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  
+}
+
+
+form
+{
+  margin: 0 auto;
+  margin-top: 0;    
+  max-width: 600px;
+  margin-top: 40px;
+  border-radius: 20px;    
+  background-color: #171D4B;
+  padding: 20px 20px 20px 20px;    
+  color: white;
+}
+
